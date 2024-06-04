@@ -4,6 +4,7 @@ html {
   font-family: sans-serif;
 }
 
+
 body {
   margin: 0;
 }
@@ -10665,7 +10666,7 @@ figcaption {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 967px) {
   body {
     font-size: 1rem;
   }
@@ -12937,5 +12938,11 @@ figcaption {
     left: -31;
     right: 0;
     transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 10000px) {
+  .navbar_logo {
+    display: none !important;
   }
 }
