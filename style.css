@@ -112,6 +112,7 @@ button, select {
 }
 
 button, html input[type="button"], input[type="reset"] {
+  appearance: button;
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -139,6 +140,7 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
 }
 
 input[type="search"] {
+  appearance: none;
   -webkit-appearance: none;
 }
 
@@ -275,6 +277,7 @@ html.w-mod-touch * {
 }
 
 input.w-button {
+  appearance: button;
   -webkit-appearance: button;
 }
 
